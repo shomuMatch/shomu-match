@@ -1,5 +1,5 @@
 nav #gnav{
-    width: 900px;
+    width: 9000px;
     padding: 20px 0;
     margin: 0 auto;
 }
@@ -12,10 +12,11 @@ nav #gnav ul li{
     padding: 0 20px;
 }
 nav #gnav ul li a{
-    font-size: 14px;
+    font-size: 20px;
     color: #ffffff;
     padding-bottom: 2px;
     text-decoration: none;
+    background: rgb(200,0,0)
 }
 nav #gnav ul li a.current{
     color: #aaa;
