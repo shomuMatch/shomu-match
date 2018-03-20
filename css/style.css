@@ -1,0 +1,28 @@
+body {
+    /*background: url(../images/background.png) 0 0 no-repeat;
+    background-size: 100% auto;*/
+    background: rgb(255,255,255);
+    min-width: 1000px;
+    font-family: Meiryo;
+}
+/*body {
+    background: #eeeeee;
+    font-family: Meiryo;
+}*/
+
+.main-image{
+    background-image: url(../images/background_div.png);
+    background-color: rgba(0,0,0,0.5);
+    background-size: 100% auto;
+    width: 900px;
+    min-height: 900px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    margin: 10px auto;
+    box-shadow: 2px 2px 4px;
+    border-radius: 10px 20px 30px 40px / 40px 30px 20px 10px;
+}
+.main-contents{
+    color: #ffffff;
+}
