@@ -27,7 +27,8 @@
 
                 navList.each(function(){
                     var href = $(this).attr("href");
-                    document.write(url+"\n")
+                    document.write(url+"     ")
+                    document.write(href+"     ")
                     if( href == url ) {
                         $(this).addClass("current");
                     };
