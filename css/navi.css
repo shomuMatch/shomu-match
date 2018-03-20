@@ -16,11 +16,22 @@ nav #gnav ul li{
     margin: 0px 0px 0px 10px;
     background: rgb(200,0,0);
 }
-nav #gnav ul li a{
+nav #gnav ul li a span{
     font-size: 20px;
     color: #ffffff;
     padding-bottom: 2px;
     text-decoration: none;
+}
+nav #gnav ul li a span:nth-child(1){
+    background-color: #fff;
+    color: #333;
+}
+nav #gnav ul li a span:nth-child(2){
+    background-color: #333;
+    color: #fff;
+}
+nav #gnav ul li a:hover span:nth-child(2){
+    display: none;
 }
 nav #gnav ul li a.current{
     color: #aaa;
