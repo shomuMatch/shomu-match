@@ -13,6 +13,7 @@ nav #gnav ul li{
     padding: 0 20px;
 }
 nav #gnav ul li a{
+    width: 150px;
     font-size: 20px;
     color: #ffffff;
     padding-bottom: 2px;
