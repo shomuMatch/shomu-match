@@ -10,9 +10,9 @@ nav #gnav ul{
 nav #gnav ul li{
     text-align: center;
     display: inline-block;
-    width: 150px;
-    height: 50px;
-    padding: 15px 0 0 0;
+    width: 130px;
+    height: 40px;
+    padding: 10px 0 0 0;
     margin: 0px 0px 0px 10px;
     background: rgb(200,0,0);
 }
