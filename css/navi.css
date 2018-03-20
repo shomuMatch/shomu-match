@@ -16,23 +16,16 @@ nav #gnav ul li{
     margin: 0px 0px 0px 10px;
     background: rgb(200,0,0);
 }
-nav #gnav ul li a span{
+nav #gnav ul li a{
     font-size: 20px;
     color: #ffffff;
     padding-bottom: 2px;
     text-decoration: none;
 }
-nav #gnav ul li a span:nth-child(1){
-    background-color: #fff;
-    color: #333;
-}
-nav #gnav ul li a span:nth-child(2){
-    background-color: #333;
-    color: #fff;
-}
-nav #gnav ul li a:hover span:nth-child(2){
-    display: none;
-}
+nav #gnav ul li a span.en{display:inline;}
+nav #gnav ul li a:hover span.en{display:none;}
+nav #gnav ul li a span.jp{display:none;}
+nav #gnav ul li a:hover span.jp{display:inline;}
 nav #gnav ul li a.current{
     color: #aaa;
     border-bottom: 2px solid #aaa;
