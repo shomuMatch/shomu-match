@@ -22,13 +22,13 @@
         </nav>
         <script>
             $(document).ready(function() {
-                var url = location.pathname;
+                var url = location.href;
                 var navList = $("#gnav a");
 
                 navList.each(function(){
                     var href = $(this).attr("href");
-
-                    if( 1 ) {
+                    document.write(url+"\n")
+                    if( href == url ) {
                         $(this).addClass("current");
                     };
                 });
