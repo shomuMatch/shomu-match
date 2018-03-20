@@ -21,13 +21,15 @@
             </div>
         </nav>
         <script>
-            $(function(){
-                $('#gNav li a').each(function(){
-                    var $href = $(this).attr('href');
-                    if(location.href.match($href)) {
-                        $(this).addClass('current');
-                    } else {
-                        $(this).removeClass('current');
+            $(document).ready(function() {
+                var url = location.pathname;
+                var navList = $("#gnav a");
+
+                navList.each(function(){
+                    var href = $(this).attr("href");
+
+                    if( href == url ) {
+                        $(this).addClass("current");
                     };
                 });
             });
