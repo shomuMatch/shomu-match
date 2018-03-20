@@ -9,6 +9,7 @@ nav #gnav ul{
     text-align: center;
 }
 nav #gnav ul li{
+    width: 150px;
     display: inline-block;
     padding: 0 20px;
 }
