@@ -16,7 +16,6 @@ nav #gnav ul li a{
     color: #ffffff;
     padding-bottom: 2px;
     text-decoration: none;
-    background: rgb(200,0,0)
 }
 nav #gnav ul li a.current{
     color: #aaa;
