@@ -1,7 +1,6 @@
 body {
-    /*background: url(../images/background.png) 0 0 no-repeat;
-    background-size: 100% auto;*/
-    background: rgb(255,255,255);
+    background: url(../images/background.png) 0 0 no-repeat;
+    background-size: 100% auto;
     min-width: 1000px;
     font-family: Meiryo;
 }
