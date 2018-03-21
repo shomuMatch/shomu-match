@@ -38,7 +38,12 @@ nav #gnav ul li a:hover{
     border-bottom: 2px solid #aaa;
 }
 
+.logodiv{
+    margin:10px auto;
+    width:250px;
+}
+
 img.logo{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
