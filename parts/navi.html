@@ -13,11 +13,11 @@
             <div id="gnav">
                 <ul>
                     <li><a href="https://shomumatch.github.io/"><span class="en">HOME</span><span class="jp">トップページ</span></a></li>
-                    <li><a href="https://shomumatch.github.io/pages/about.html"><span class="en">ABOUT</span><span class="jp">自己紹介</span></a></li>
-                    <li><a href="https://shomumatch.github.io/pages/report.html"><span class="en">REPORT</span><span class="jp">参加記</span></a></li>
-                    <li><a href="https://shomumatch.github.io/pages/reminder.html"><span class="en">REMINDER</span><span class="jp">備忘録</span></a></li>
-                    <li><a href="https://shomumatch.github.io/pages/threed.html"><span class="en">3D MODELS</span><span class="jp">3Dモデル</span></a></li>
-                    <li><a href="https://shomumatch.github.io/pages/extra.html"><span class="en">EXTRA</span><span class="jp">その他</span></a></li>
+                    <li><a href="https://shomumatch.github.io/pages/about/about.html"><span class="en">ABOUT</span><span class="jp">自己紹介</span></a></li>
+                    <li><a href="https://shomumatch.github.io/pages/report/report.html"><span class="en">REPORT</span><span class="jp">参加記</span></a></li>
+                    <li><a href="https://shomumatch.github.io/pages/reminder/reminder.html"><span class="en">REMINDER</span><span class="jp">備忘録</span></a></li>
+                    <li><a href="https://shomumatch.github.io/pages/threed/threed.html"><span class="en">3D MODELS</span><span class="jp">3Dモデル</span></a></li>
+                    <li><a href="https://shomumatch.github.io/pages/extra/extra.html"><span class="en">EXTRA</span><span class="jp">その他</span></a></li>
                 </ul>
             </div>
         </nav>
@@ -28,8 +28,14 @@
 
                 navList.each(function(){
                     var href = $(this).attr("href");
-                    if( href == url ) {
-                        $(this).addClass("current");
+                    if(url=="https://shomumatch.github.io/"){
+                        if( href == url ) {
+                            $(this).addClass("current");
+                        };
+                    } else {
+                        if( href.split('/')[4] == url.split('/')[4] ) {
+                            $(this).addClass("current");
+                        };
                     };
                 });
             });
