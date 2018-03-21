@@ -4,8 +4,11 @@
         <meta charset=“UFT-8”>
         <title>庶務のホームページ</title>
         <link rel="stylesheet"
-              href="./css/style.css">
-        <script type="text/javascript" src="../js/jquery.js"></script>
+              href="./css/bootstrap.css">
+        <link rel="stylesheet"
+              href="./css/top.css">
+        <script type="text/javascript" src="./js/jquery.js"></script>
+        <script type="text/javascript" src="./js/bootstrap.js"></script>
         <script type="text/javascript">
              $(function() {
              $(".glonav").load("./parts/navi.html");
@@ -13,6 +16,38 @@
         </script>
     </head>
     <body>
+        <div id="top-slide" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#top-slide" data-slide-to="0"></li>
+                <li data-target="#top-slide" data-slide-to="1"></li>
+                <li data-target="#top-slide" data-slide-to="2"></li>
+                <li data-target="#top-slide" data-slide-to="3"></li>
+                <li data-target="#top-slide" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="https://shomumatch.github.io/pages/about/about.html">
+                    <img src="./images/slide1.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://shomumatch.github.io/pages/report/report.html">
+                    <img src="./images/slide2.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://shomumatch.github.io/pages/reminder/reminder.html">
+                    <img src="./images/slide3.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://shomumatch.github.io/pages/threed/threed.html">
+                    <img src="./images/slide4.png" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="https://shomumatch.github.io/pages/extra/extra.html">
+                    <img src="./images/slide5.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        
         <div class="glonav">
         </div>
         <div class="main-image">
