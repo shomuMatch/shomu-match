@@ -41,4 +41,5 @@ nav #gnav ul li a:hover{
 img.logo{
     width: 200px;
     height: 200px;
+    margin:10px auto;
 }
