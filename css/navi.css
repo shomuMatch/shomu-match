@@ -1,8 +1,7 @@
 nav #gnav{
     width: 900px;
-    padding: 10px 5px;
+    padding: 10px 0px;
     margin: 0 auto;
-    background: rgb(0,0,200);
 }
 nav #gnav ul{
     font-size: 0;
@@ -13,13 +12,13 @@ nav #gnav ul li{
     width: 130px;
     height: 40px;
     padding: 10px 0 0 0;
-    margin: 0px 0px 0px 10px;
-    background: rgb(200,0,0);
+    margin: 10px 5px 0px 2px;
+    background-color: #00b9e7;
 }
 nav #gnav ul li a{
     display:block;
     font-size: 20px;
-    color: #ffffff;
+    color: #fff41c;
     padding-bottom: 2px;
     text-decoration: none;
 }
