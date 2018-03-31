@@ -19,7 +19,6 @@ body {
 }
 
 .main-image{
-    background-image: url(../images/background_div.png);
     background-color: rgba(0,0,0,0.5);
     background-size: 100% auto;
     width: 900px;
