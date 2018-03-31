@@ -1,6 +1,7 @@
 body {
     background: url(../images/background.png) 0 0 no-repeat;
     background-size: 100% auto;
+    background-position: bottom;
     background-attachment: fixed;
     min-width: 1000px;
     font-family: Meiryo;
