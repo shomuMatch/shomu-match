@@ -29,7 +29,7 @@ body {
 #grid {
 	width: 900px;
 }
-li {
+li.lis {
 	margin: 5px;
 	float: left;
 	list-style: none;
